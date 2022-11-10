@@ -14,11 +14,11 @@ import controller.application.bug.ViewBugController;
 import controller.application.department.ViewDepartmentController;
 import controller.application.employe.CurrentEmployeeController;
 import controller.application.project.ViewProjectController;
-import controller.application.stock.ViewBrandController;
-import controller.application.stock.ViewCatagoryController;
-import controller.application.stock.ViewRMAController;
-import controller.application.stock.ViewSupplyerController;
-import controller.application.stock.ViewUnitController;
+//import controller.application.stock.ViewBrandController;
+//import controller.application.stock.ViewCatagoryController;
+//import controller.application.stock.ViewRMAController;
+//import controller.application.stock.ViewSupplyerController;
+//import controller.application.stock.ViewUnitController;
 import dataBase.DBConnection;
 import dataBase.DBProperties;
 import javafx.event.ActionEvent;
@@ -135,22 +135,22 @@ public class UserControlController implements Initializable {
         spMainContent.getChildren().add(acPane);
     }
 
-    @FXML
-    private void btnSupplyerOnAction(ActionEvent event) throws IOException {
-        lblHeader.setText("Project");
-        ViewSupplyerController vsc = new ViewSupplyerController();
-        userNameMedia media = new userNameMedia();
-        FXMLLoader fXMLLoader = new FXMLLoader();
-        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewSupplier.fxml").openStream());
-        media.setId(usrId);
-        ViewSupplyerController viewSupplyerController = fXMLLoader.getController();
-        viewSupplyerController.setMedia(userId);
-        viewSupplyerController.showDetails();
-        AnchorPane acPane = fXMLLoader.getRoot();
-
-        spMainContent.getChildren().clear();
-        spMainContent.getChildren().add(acPane);
-    }
+//    @FXML
+//    private void btnSupplyerOnAction(ActionEvent event) throws IOException {
+//        lblHeader.setText("Project");
+//        ViewSupplyerController vsc = new ViewSupplyerController();
+//        userNameMedia media = new userNameMedia();
+//        FXMLLoader fXMLLoader = new FXMLLoader();
+//        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewSupplier.fxml").openStream());
+//        media.setId(usrId);
+//        ViewSupplyerController viewSupplyerController = fXMLLoader.getController();
+//        viewSupplyerController.setMedia(userId);
+//        viewSupplyerController.showDetails();
+//        AnchorPane acPane = fXMLLoader.getRoot();
+//
+//        spMainContent.getChildren().clear();
+//        spMainContent.getChildren().add(acPane);
+//    }
     
     
     
@@ -216,73 +216,73 @@ public class UserControlController implements Initializable {
     
     
 
-    @FXML
-    private void btnBrandsOnAction(ActionEvent event) throws IOException {
-        lblHeader.setText("Brands");
-        ViewBrandController vbc = new ViewBrandController();
-        userNameMedia media = new userNameMedia();
-        FXMLLoader fXMLLoader = new FXMLLoader();
-        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewBrand.fxml").openStream());
-        media.setId(usrId);
-        ViewBrandController viewBrandController = fXMLLoader.getController();
-        viewBrandController.setMedia(userId);
-        viewBrandController.showDetails();
-        AnchorPane acPane = fXMLLoader.getRoot();
-
-        spMainContent.getChildren().clear();
-        spMainContent.getChildren().add(acPane);
-    }
-
-    @FXML
-    private void btnCatagoryOnAction(ActionEvent event) throws IOException {
-        lblHeader.setText("Catagories");
-        ViewCatagoryController vcc = new ViewCatagoryController();
-        userNameMedia media = new userNameMedia();
-        FXMLLoader fXMLLoader = new FXMLLoader();
-        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewCategory.fxml").openStream());
-        media.setId(usrId);
-        ViewCatagoryController viewCatagoryController = fXMLLoader.getController();
-        viewCatagoryController.setMedia(userId);
-        viewCatagoryController.showDetails();
-        AnchorPane acPane = fXMLLoader.getRoot();
-
-        spMainContent.getChildren().clear();
-        spMainContent.getChildren().add(acPane);
-    }
-
-    @FXML
-    private void btnUnitOnAction(ActionEvent event) throws IOException {
-        lblHeader.setText("Unit");
-        ViewUnitController vuc = new ViewUnitController();
-        userNameMedia media = new userNameMedia();
-        FXMLLoader fXMLLoader = new FXMLLoader();
-        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewUnit.fxml").openStream());
-        media.setId(usrId);
-        ViewUnitController viewUnitController = fXMLLoader.getController();
-        viewUnitController.setMedia(userId);
-        viewUnitController.showDetails();
-        AnchorPane acPane = fXMLLoader.getRoot();
-
-        spMainContent.getChildren().clear();
-        spMainContent.getChildren().add(acPane);
-    }
-
-    @FXML
-    private void btnRmaOnAction(ActionEvent event) throws IOException {
-        lblHeader.setText("RMA");
-        ViewRMAController vrmac = new ViewRMAController();
-        userNameMedia media = new userNameMedia();
-        FXMLLoader fXMLLoader = new FXMLLoader();
-        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewRMA.fxml").openStream());
-        media.setId(usrId);
-        ViewRMAController viewRMAController = fXMLLoader.getController();
-        viewRMAController.setMedia(userId);
-        viewRMAController.showDetails();
-        AnchorPane acPane = fXMLLoader.getRoot();
-
-        spMainContent.getChildren().clear();
-        spMainContent.getChildren().add(acPane);
-    }
+//    @FXML
+//    private void btnBrandsOnAction(ActionEvent event) throws IOException {
+//        lblHeader.setText("Brands");
+//        ViewBrandController vbc = new ViewBrandController();
+//        userNameMedia media = new userNameMedia();
+//        FXMLLoader fXMLLoader = new FXMLLoader();
+//        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewBrand.fxml").openStream());
+//        media.setId(usrId);
+//        ViewBrandController viewBrandController = fXMLLoader.getController();
+//        viewBrandController.setMedia(userId);
+//        viewBrandController.showDetails();
+//        AnchorPane acPane = fXMLLoader.getRoot();
+//
+//        spMainContent.getChildren().clear();
+//        spMainContent.getChildren().add(acPane);
+//    }
+//
+//    @FXML
+//    private void btnCatagoryOnAction(ActionEvent event) throws IOException {
+//        lblHeader.setText("Catagories");
+//        ViewCatagoryController vcc = new ViewCatagoryController();
+//        userNameMedia media = new userNameMedia();
+//        FXMLLoader fXMLLoader = new FXMLLoader();
+//        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewCategory.fxml").openStream());
+//        media.setId(usrId);
+//        ViewCatagoryController viewCatagoryController = fXMLLoader.getController();
+//        viewCatagoryController.setMedia(userId);
+//        viewCatagoryController.showDetails();
+//        AnchorPane acPane = fXMLLoader.getRoot();
+//
+//        spMainContent.getChildren().clear();
+//        spMainContent.getChildren().add(acPane);
+//    }
+//
+//    @FXML
+//    private void btnUnitOnAction(ActionEvent event) throws IOException {
+//        lblHeader.setText("Unit");
+//        ViewUnitController vuc = new ViewUnitController();
+//        userNameMedia media = new userNameMedia();
+//        FXMLLoader fXMLLoader = new FXMLLoader();
+//        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewUnit.fxml").openStream());
+//        media.setId(usrId);
+//        ViewUnitController viewUnitController = fXMLLoader.getController();
+//        viewUnitController.setMedia(userId);
+//        viewUnitController.showDetails();
+//        AnchorPane acPane = fXMLLoader.getRoot();
+//
+//        spMainContent.getChildren().clear();
+//        spMainContent.getChildren().add(acPane);
+//    }
+//
+//    @FXML
+//    private void btnRmaOnAction(ActionEvent event) throws IOException {
+//        lblHeader.setText("RMA");
+//        ViewRMAController vrmac = new ViewRMAController();
+//        userNameMedia media = new userNameMedia();
+//        FXMLLoader fXMLLoader = new FXMLLoader();
+//        fXMLLoader.load(getClass().getResource("/view/application/stock/ViewRMA.fxml").openStream());
+//        media.setId(usrId);
+//        ViewRMAController viewRMAController = fXMLLoader.getController();
+//        viewRMAController.setMedia(userId);
+//        viewRMAController.showDetails();
+//        AnchorPane acPane = fXMLLoader.getRoot();
+//
+//        spMainContent.getChildren().clear();
+//        spMainContent.getChildren().add(acPane);
+//    }
 
     @FXML
     private void btnRepoertsOnAction(ActionEvent event) {

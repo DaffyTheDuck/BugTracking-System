@@ -5,7 +5,6 @@
  */
 package Getway;
 
-import DAL.MysqlConnector;
 import dataBase.DBProperties;
 import dataBase.SQLightConnection;
 import java.sql.Connection;
@@ -14,6 +13,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.MysqlConnector;
 
 
 public class MySqlConnectorGetway {

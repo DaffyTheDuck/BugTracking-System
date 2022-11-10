@@ -9,7 +9,7 @@ import java.util.ResourceBundle;
 
 import BLL.ReportBLL;
 import BLL.UnitBLL;
-import DAL.Unit;
+import Collections.Unit;
 import Getway.ReportGetway;
 import Getway.UnitGetway;
 import custom.CustomTf;

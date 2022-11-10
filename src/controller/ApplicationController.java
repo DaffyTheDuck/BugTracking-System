@@ -1,13 +1,12 @@
 
 package controller;
 
-import DAL.Users;
 import Getway.UsersGetway;
 import controller.application.EmployeController;
 import controller.application.ReportController;
 import controller.application.SellController;
 import controller.application.SettingsController;
-import controller.application.StockController;
+//import controller.application.StockController;
 import controller.application.UserControlController;
 import controller.application.home.HomeController;
 import dataBase.DBConnection;
@@ -21,6 +20,8 @@ import java.sql.SQLException;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.Users;
 import javafx.animation.TranslateTransition;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

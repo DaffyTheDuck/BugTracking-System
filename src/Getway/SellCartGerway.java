@@ -1,6 +1,5 @@
 package Getway;
 
-import DAL.SellCart;
 import List.ListSold;
 import dataBase.DBConnection;
 import dataBase.DBProperties;
@@ -13,6 +12,8 @@ import java.sql.SQLException;
 import java.time.LocalDateTime;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.SellCart;
 
 
 public class SellCartGerway {

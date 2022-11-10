@@ -5,8 +5,6 @@
  */
 package Getway;
 
-import DAL.Brands;
-import DAL.Supplyer;
 import List.ListBrands;
 import dataBase.DBConnection;
 import dataBase.DBProperties;
@@ -19,6 +17,9 @@ import java.sql.SQLException;
 import java.time.LocalDate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.Brands;
+import Collections.Supplyer;
 import javafx.scene.control.Alert;
 import javafx.stage.StageStyle;
 

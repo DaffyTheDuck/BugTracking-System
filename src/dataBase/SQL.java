@@ -19,7 +19,7 @@ import java.time.LocalDate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import controller.application.stock.ViewSupplyerController;
+//import controller.application.stock.ViewSupplyerController;
 import javafx.scene.control.CheckBox;
 import javafx.scene.control.Label;
 
@@ -143,7 +143,7 @@ public class SQL {
             rs.close();
 
         } catch (SQLException ex) {
-            Logger.getLogger(ViewSupplyerController.class.getName()).log(Level.SEVERE, null, ex);
+           System.out.print(ex);
         }
     }
 

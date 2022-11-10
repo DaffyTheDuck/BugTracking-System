@@ -5,7 +5,6 @@
  */
 package controller.application.sell;
 
-import DAL.SellCart;
 import Getway.SellCartGerway;
 import List.ListSold;
 import java.io.IOException;
@@ -13,6 +12,8 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.SellCart;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;

@@ -43,8 +43,9 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import javax.imageio.ImageIO;
+
+import Collections.Users;
 import media.userNameMedia;
-import DAL.Users;
 import dataBase.DBProperties;
 import javafx.scene.control.Alert;
 

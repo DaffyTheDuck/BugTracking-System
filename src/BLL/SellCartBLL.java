@@ -1,6 +1,5 @@
 package BLL;
 
-import DAL.SellCart;
 import Getway.SellCartGerway;
 import dataBase.DBConnection;
 import dataBase.DBProperties;
@@ -10,6 +9,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.SellCart;
 
 
 public class SellCartBLL {

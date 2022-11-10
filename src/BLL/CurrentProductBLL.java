@@ -1,6 +1,5 @@
 package BLL;
 
-import DAL.CurrentProduct;
 import Getway.CurrentProductGetway;
 import dataBase.DBConnection;
 import dataBase.DBProperties;
@@ -11,6 +10,8 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.CurrentProduct;
 import javafx.scene.control.Alert;
 import javafx.stage.StageStyle;
 

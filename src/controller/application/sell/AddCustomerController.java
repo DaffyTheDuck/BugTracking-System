@@ -1,6 +1,7 @@
 package controller.application.sell;
 
 import BLL.CustomerBLL;
+import Collections.Customer;
 import Getway.CustomerGetway;
 import javafx.fxml.Initializable;
 
@@ -14,7 +15,6 @@ import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import media.userNameMedia;
-import DAL.Customer;
 
 
 public class AddCustomerController implements Initializable {

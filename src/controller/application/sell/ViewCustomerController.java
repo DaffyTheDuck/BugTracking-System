@@ -11,6 +11,7 @@ import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+import Collections.Customer;
 import Getway.CustomerGetway;
 import javafx.collections.transformation.SortedList;
 import javafx.event.ActionEvent;
@@ -32,7 +33,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import media.userNameMedia;
-import DAL.Customer;
 import List.ListCustomer;
 import controller.RegistrationController;
 import java.util.Optional;

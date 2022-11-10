@@ -1,6 +1,6 @@
 package BLL;
 
-import DAL.Supplyer;
+import Collections.Supplyer;
 import Getway.SupplyerGetway;
 
 

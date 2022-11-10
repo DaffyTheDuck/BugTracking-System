@@ -50,9 +50,8 @@ import javafx.stage.StageStyle;
 
 import javax.imageio.ImageIO;
 
+import Collections.Users;
 import List.ListEmployee;
-
-import DAL.Users;
 import controller.RegistrationController;
 import dataBase.DBProperties;
 import java.util.Optional;

@@ -23,6 +23,8 @@ import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.stage.FileChooser;
 import javax.imageio.ImageIO;
+
+import Collections.Users;
 import media.userNameMedia;
 import custom.*;
 import dataBase.DBConnection;
@@ -33,7 +35,6 @@ import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javafx.beans.binding.BooleanBinding;
-import DAL.Users;
 import dataBase.DBProperties;
 
 

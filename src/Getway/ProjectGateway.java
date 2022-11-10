@@ -8,7 +8,7 @@ import java.time.LocalDate;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import DAL.Supplyer;
+import Collections.Supplyer;
 import List.ListProject;
 import controller.application.employe.CurrentEmployee;
 import controller.application.employe.ListEmployee;

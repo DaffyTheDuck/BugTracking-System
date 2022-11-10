@@ -10,7 +10,7 @@ import javafx.scene.image.ImageView;
 
 public class AboutMeController implements Initializable {
     @FXML
-    private ImageView imgMyImg;
+//    private ImageView imgMyImg;
     
     Image image = new Image("/image/image-1.jpg");
 
@@ -19,7 +19,7 @@ public class AboutMeController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        imgMyImg.setImage(image);
+//        imgMyImg.setImage(image);
     }    
     
 }

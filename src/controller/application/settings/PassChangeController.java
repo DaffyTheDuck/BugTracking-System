@@ -21,11 +21,12 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
+import Collections.Users;
 import javafx.beans.binding.BooleanBinding;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyEvent;
 import media.userNameMedia;
-import DAL.Users;
 import dataBase.DBProperties;
 import javafx.scene.control.Alert;
 import javafx.stage.StageStyle;

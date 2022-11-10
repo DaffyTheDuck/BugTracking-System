@@ -6,12 +6,16 @@
 package controller.application.sell;
 
 import BLL.SellCartBLL;
+import Collections.CurrentProduct;
+import Collections.Customer;
+import Collections.SellCart;
+
 import java.io.IOException;
 import java.net.URL;
 import java.util.ResourceBundle;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import DAL.CurrentProduct;
+
 import Getway.CurrentProductGetway;
 import Getway.CustomerGetway;
 import javafx.collections.FXCollections;
@@ -31,8 +35,6 @@ import javafx.stage.Modality;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
 import media.userNameMedia;
-import DAL.Customer;
-import DAL.SellCart;
 import Getway.SellCartGerway;
 import List.ListCustomer;
 import List.ListPreSell;
